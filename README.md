@@ -1,8 +1,6 @@
 # T00: Exploring PyCharm
 
-Your Names: _____________________
-
-            _____________________
+Your Name: Dimond _____________________
             
 Google Doc Link: _____________________
 
