@@ -83,12 +83,3 @@
 
 # wn.mainloop()
 ###########################################################################
-
-# Some guidance on the coding portion of the exam: If you’ve been doing the teamwork and homework
-# assignments, you should have all the tools in your bag that you need to be successful. You can
-# likely expect variables, functions, loops, and conditionals as core concepts of the code. Make
-# sure you can identify those concepts in code, refactor them, and create new ones. The tasks we
-# give you will NOT be expecting you to be very creative (e.g., “Draw a butterfly!:); instead,
-# we want you to implement clearly stated instructions (e.g., “Ask the user to input a number
-# between 1 and 10”). If you implement them correctly, :thumbsup:
-###################################################################################################
