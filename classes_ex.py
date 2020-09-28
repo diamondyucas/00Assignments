@@ -75,3 +75,30 @@ class Meeting:
         """
         self.participants.remove(participant)
 
+class Point:
+    """
+    Point class rep. and manipulates x, y coords.
+    """
+    def __init__(self, x=0, y=0):
+        """ Create a new point at x, y """
+        self.x = x
+        self.y = y
+# Other statements outside the class continue below here.
+
+class Rectangle:
+    """ A class to manufacture rectangle objects """
+
+    def __init__(self, posn, w, h):
+        """ Initialize rectangle at posn, with width w, height h """
+        self.corner = posn
+        self.width = w
+        self.height = h
+
+    def __str__(self):
+        return  "({0}, {1}, {2})"
+                  .format(self.corner, self.width, self.height)
+
+box = Rectangle(Point(0, 0), 100, 200)
+bomb = Rectangle(Point(100, 80), 5, 10)    # In my video game
+print("box: ", box)
+print("bomb: ", bomb)
